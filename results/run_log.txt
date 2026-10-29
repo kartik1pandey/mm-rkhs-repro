@@ -1,0 +1,24 @@
+[12:16:02] === beta ===
+[12:17:25] saved results/beta.json
+[12:17:25] === inner ===
+[12:18:10] inner l=1 (paper): J_K = 0.09537 (32s)
+[12:18:47] inner l=5: J_K = 0.09489 (37s)
+[12:19:41] inner l=20: J_K = 0.13182 (54s)
+[12:20:36] inner l=20, 10x beta: J_K = 0.45500 (55s)
+[12:21:46] inner l=20, RBF R: J_K = 0.09704 (69s)
+[12:22:53] inner l=20, RBF R, 10x beta: J_K = 0.39234 (67s)
+[12:22:53] saved results/inner.json
+[12:22:53] === seeds ===
+[12:25:27] seeds: seed 0 done (J* = 0.0940)
+[12:28:22] seeds: seed 1 done (J* = 0.0932)
+[12:31:21] seeds: seed 2 done (J* = 0.0945)
+[12:34:14] seeds: seed 3 done (J* = 0.0937)
+[12:37:11] seeds: seed 4 done (J* = 0.0937)
+[12:37:11] saved results/seeds.json
+[12:37:11] === fig1 ===
+[12:37:48] fig1 MM-RKHS: J_K = 0.0954 (23s)
+[12:38:21] fig1 PPO: J_K = 6.4841 (33s)
+[12:39:24] fig1 PPO (visitation-weighted): J_K = 9.9921 (63s)
+[12:41:30] fig1 Sample MM-RKHS: J_K = 0.2083 (126s)
+[12:43:47] fig1 Sample PPO: J_K = 6.9311 (138s)
+[12:43:47] saved results/fig1.json
